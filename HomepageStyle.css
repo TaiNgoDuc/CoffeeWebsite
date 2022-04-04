@@ -1,0 +1,245 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d0a465;
+}
+
+li {
+    float: left;
+}
+
+.class_container ul li.active-page {
+    background-color: rgb(174, 190, 152);
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+    background-color: brown;
+    font-weight: bold;
+}
+
+.welcome {
+    color: white;
+    position: relative;
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    height: 120px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.text_and_image_container {
+    width: 100%;
+    position: relative;
+    float: right;
+    display: block;
+    border: 2px solid;
+}
+
+.text_container {
+    width: 60%;
+    position: relative;
+    float: left;
+    display: block;
+}
+
+.image_container {
+    width: 40%;
+    position: relative;
+    float: right;
+    display: block;
+}
+
+.text1 {
+    color: burlywood;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.text2 {
+    font-style: italic;
+    font-size: 40px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.best_seller {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+}
+
+.here_we_have {
+    font-size: 50px;
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.text_and_image_container2 {
+    width: 100%;
+    position: relative;
+    float: left;
+    display: block;
+    border: 2px solid;
+}
+
+.text_container2 {
+    width: 70%;
+    position: relative;
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    text-align: center;
+}
+
+.image_container2 {
+    width: 30%;
+    position: relative;
+    float: left;
+    display: block;
+}
+
+.text3 {
+    color: burlywood;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text4 {
+    font-style: italic;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+}
+
+button {
+    margin: auto;
+    display: block;
+    background-color: brown;
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#circle {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: red;
+}
+
+.footer-basic {
+    margin-top: 25px;
+    padding: 0px 0;
+    background-color: #ffffff;
+    color: #4b4c4d;
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 23px;
+    color: #aaa;
+    margin-bottom: 0;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+img {
+    display: block;
+}
+
+.nav-toggle {
+    display: none;
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.nav-toggle img {
+    width: 1.5rem;
+    transition: 300ms all ease;
+}
+
+.nav-toggle:hover img {
+    opacity: 0.6;
+}
+
+.open {
+    height: 100vh;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width:720px) {
+    .text-containter,
+    .image-containter {
+        width: 100%;
+    }
+    .text-containter2,
+    .image-containter2 {
+        width: 100%;
+    }
+    .text-container,
+    .text-container2 {
+        text-align: left;
+    }
+    .image-container,
+    .image-container2 {
+        text-align: center;
+    }
+    .text1,
+    .text3 {
+        font-size: 45px;
+    }
+    .text2,
+    .text4 {
+        font-size: 35px;
+    }
+    nav {
+        height: 0;
+        width: 50%;
+        overflow: hidden;
+    }
+    li {
+        display: block;
+        text-align: center;
+        padding: 1.5rem 0;
+    }
+    li a {
+        font-size: 1.4rem;
+    }
+    .nav-toggle {
+        display: block;
+    }
+}
+
+
+#thumbnail {
+    display: block;
+    width: 100%;
+}
